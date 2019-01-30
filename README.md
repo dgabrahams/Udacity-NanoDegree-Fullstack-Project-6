@@ -14,8 +14,8 @@ It is assumed that an active connection to the internet will be available at all
 
 Please see details below requested by Udacity:
 ```
-IP address:
-URL:
+IP address: 35.178.145.28
+URL: http://dabrahamsapp.ddns.net/
 ```
 
 Summary of software:
@@ -39,13 +39,11 @@ created .ssh/authorized_keys file
 chmod 644 authorized_keys 
 chmod 700 .ssh
 
-
 /etc/ssh/sshd_config
 - AllowUsers ubuntu grader
 - Port 2200
 - No passwords
 - root disabled
-
 ```
 
 List of third-party resources:
@@ -63,7 +61,7 @@ python documentation
 
 Open the terminal application and run;
 ```
-ssh -i /path/to/key/here grader@18.130.245.104
+ssh -i /path/to/key/here grader@35.178.145.28
 ```
 
 You should now be logged into the server.
