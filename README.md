@@ -15,6 +15,7 @@ It is assumed that an active connection to the internet will be available at all
 Please see details below requested by Udacity:
 ```
 IP address: 35.178.145.28
+SSH Port: 2200
 URL: http://dabrahamsapp.ddns.net/
 ```
 
