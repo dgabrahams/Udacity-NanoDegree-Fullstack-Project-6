@@ -62,7 +62,7 @@ python documentation
 
 Open the terminal application and run;
 ```
-ssh -i /path/to/key/here grader@35.178.145.28
+ssh -i /path/to/key/here -p 2200 grader@35.178.145.28
 ```
 
 You should now be logged into the server.
